@@ -1,0 +1,58 @@
+.tablecontainer{
+    overflow-x: auto;
+}
+
+.table{
+    
+    padding: 20px 10px 10px 10px;
+    margin-top: 10px;
+
+}
+
+.tablerow{
+    background-color: rgb(220, 184, 238);
+    padding: 10px;
+}
+
+.heading{
+    background-color: rgb(152, 240, 196);
+    padding: 10px;
+    
+}
+.headingelement{
+    padding: 10px;
+}
+.selectSearch{
+    margin-left: 20%;
+    display: flex;
+    column-gap: 10px;
+}
+.selectSearch select{
+    padding: 10px;
+}
+.selectSearch .search{
+    padding: 10px;
+    border-radius: 8px;
+}
+.infotext{
+    font-style: italic;
+    color: white;
+    background-color: rgb(9, 70, 99);
+    padding: 10px;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 550px) {
+   .selectSearch{
+    margin:8%;
+    flex-direction: column;
+    row-gap: 8px;
+   }
+   .parent{
+    width: 100%;
+   }
+  }

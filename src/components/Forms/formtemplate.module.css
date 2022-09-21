@@ -1,0 +1,79 @@
+.headingpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formheading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: 40%;
+}
+.close{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn{
+    width: 80%;
+    margin: auto;
+}
+
+.errortext{
+    width: 50%;
+    color: white;
+    background-color: rgb(255, 81, 81);
+    border-radius: 3px;
+    padding:8px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.msgbox{
+    width: 50%;
+    color: white;
+    background-color: rgb(25, 214, 0);
+    border-radius: 3px;
+    padding:8px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.entryform{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+select{
+    padding: 8px;
+}
+
+input{
+    padding: 8px;
+    border-radius: 5px;
+   
+}
+
+@media only screen and (max-width: 550px) {
+    .errortext{
+        width: 100%;
+        color: white;
+        background-color: rgb(255, 81, 81);
+        border-radius: 3px;
+        padding:8px;
+        
+    }
+    
+    .msgbox{
+        width: 100%;
+        color: white;
+        background-color: rgb(25, 214, 0);
+        border-radius: 3px;
+        padding:8px;
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+   }

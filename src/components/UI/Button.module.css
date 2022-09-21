@@ -1,0 +1,13 @@
+.butn{
+    cursor: pointer ;
+    color:white;
+    margin:10px;
+    padding: 10px 10px;
+    background-color: rgb(49, 90, 204);
+    border: none;
+    border-radius: 2px;
+}
+
+button.butn:hover{
+    background-color: rgb(107, 6, 153);;
+}
